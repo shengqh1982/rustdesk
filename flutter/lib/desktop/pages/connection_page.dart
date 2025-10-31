@@ -86,10 +86,6 @@ class _OnlineStatusWidgetState extends State<OnlineStatusWidget> {
             child: Row(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [],
-                    ),
-                  ),
-                )
-              ],
             ),
           ),
         );
