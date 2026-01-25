@@ -459,8 +459,8 @@ pub static ref T: std::collections::HashMap<&'static str, &'static str> =
         ("empty_favorite_tip", "Brak ulubionych?\nZnajdźmy kogoś, z kim możesz się połączyć i dodaj Go do ulubionych!"),
         ("empty_lan_tip", "Ojej, wygląda na to, że nie odkryliśmy żadnych urządzeń z RustDesk w Twojej sieci."),
         ("empty_address_book_tip", "Ojej, wygląda na to, że nie ma żadnych wpisów w Twojej książce adresowej."),
-        ("Empty Username", "Pusty użytkownik"),
-        ("Empty Password", "Puste hasło"),
+        ("Empty Username", "Pole nazwy użytkownika jest puste"),
+        ("Empty Password", "Pole hasła jest puste"),
         ("Me", "Ja"),
         ("identical_file_tip", "Ten plik jest identyczny z plikiem na drugim komputerze."),
         ("show_monitors_tip", "Pokaż monitory w zasobniku"),
@@ -737,5 +737,7 @@ pub static ref T: std::collections::HashMap<&'static str, &'static str> =
         ("rel-mouse-exit-{}-tip", "Aby wyłączyć tryb przechwytywania myszy, naciśnij {}"),
         ("rel-mouse-permission-lost-tip", "Utracono uprawnienia do trybu przechwytywania myszy"),
         ("Changelog", "Dziennik zmian"),
+        ("keep-awake-during-outgoing-sessions-label", ""),
+        ("keep-awake-during-incoming-sessions-label", ""),
     ].iter().cloned().collect();
 }
